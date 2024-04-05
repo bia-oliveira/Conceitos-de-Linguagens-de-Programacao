@@ -1,1 +1,19 @@
-
+1010      Cadeia aceita.
+110011      Cadeia aceita.
+abc101      Cadeia rejeitada.
+0101      Cadeia aceita.
+xyz0011      Cadeia rejeitada.
+100101      Cadeia aceita.
+001100      Cadeia aceita.
+abcdef      Cadeia rejeitada.
+001010      Cadeia aceita.
+110010      Cadeia aceita.
+101xyz      Cadeia rejeitada.
+abc110def      Cadeia rejeitada.
+1010      Cadeia aceita.
+010101xyz      Cadeia rejeitada.
+pqrst101      Cadeia rejeitada.
+101001xyz      Cadeia rejeitada.
+uvw011      Cadeia rejeitada.
+110010      Cadeia aceita.
+0101      Cadeia aceita.
