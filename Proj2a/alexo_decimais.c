@@ -1,3 +1,5 @@
+#BEATRIZ SANTOS DE OLIVEIRA
+
 #include <stdio.h>
 #include <string.h>
 
