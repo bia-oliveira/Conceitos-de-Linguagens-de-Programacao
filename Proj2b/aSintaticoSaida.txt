@@ -1,0 +1,27 @@
+i   q   w   d   p             0   1   2   3   4   5   6   7   8   9   10
+ === === === === ===           === === === === === === === === === === ===
+ 0   q0  .   d0  -       s[] : 
+ 1   q1  .   d1  p1      s[] : S   
+ 2   q1  .   d4  -       s[] : a   S   b   
+ 3   q1  .   d1  p1      s[] : S   b   
+ 4   q1  .   d4  -       s[] : a   S   b   b   
+ 5   q1  .   d1  p1      s[] : S   b   b   
+ 6   q1  .   d4  -       s[] : a   S   b   b   b   
+ 7   q1  .   d3  p2      s[] : S   b   b   b   
+ 8   q1  .   d6  -       s[] : c   b   b   b   
+ 9   q1  .   d5  -       s[] : b   b   b   
+ 10   q1  .   d5  -       s[] : b   b   
+ 11   q1  .   d5  -       s[] : b   
+ 12   q1  .   d7  -       s[] : 
+
+=== ARVORE DE ANALISE SINTATICA ===
+
+   S   
+ / | \
+a  S  S
+ / | \
+a  S  S
+ / | \
+a  S  S
+ / | \
+   c   
