@@ -1,0 +1,119 @@
+Próximo token é: 11, Próximo lexema é xyz
+Enter <expr>
+Enter <term>
+Enter <factor>
+
+Expressão aceita
+
+Próximo token é: 11, Próximo lexema é xyz
+Exit <factor>
+Exit <term>
+Exit <expr>
+Próximo token é: 10, Próximo lexema é 1357
+Enter <expr>
+Enter <term>
+Enter <factor>
+
+Expressão aceita
+
+Próximo token é: 10, Próximo lexema é 1357
+Exit <factor>
+Exit <term>
+Exit <expr>
+Próximo token é: 10, Próximo lexema é 1
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 21, Próximo lexema é +
+Exit <factor>
+Exit <term>
+Próximo token é: 25, Próximo lexema é (
+Enter <term>
+Enter <factor>
+Próximo token é: 10, Próximo lexema é 3
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 23, Próximo lexema é *
+Exit <factor>
+Próximo token é: 10, Próximo lexema é 5
+Enter <factor>
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+
+Expressão aceita
+
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+Próximo token é: 25, Próximo lexema é (
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 10, Próximo lexema é 5
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 23, Próximo lexema é *
+Exit <factor>
+Próximo token é: 10, Próximo lexema é 7
+Enter <factor>
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+Próximo token é: 21, Próximo lexema é +
+Exit <factor>
+Exit <term>
+Próximo token é: 25, Próximo lexema é (
+Enter <term>
+Enter <factor>
+Próximo token é: 10, Próximo lexema é 9
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 24, Próximo lexema é /
+Exit <factor>
+Próximo token é: 10, Próximo lexema é 11
+Enter <factor>
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+
+Expressão aceita
+
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+Próximo token é: 25, Próximo lexema é (
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 10, Próximo lexema é 8642
+Enter <expr>
+Enter <term>
+Enter <factor>
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+
+Expressão aceita
+
+Próximo token é: 26, Próximo lexema é )
+Exit <factor>
+Exit <term>
+Exit <expr>
+Próximo token é: -1, Próximo lexema é EOF
+Enter <expr>
+Enter <term>
+Enter <factor>
+Erro sintático: esperado identificador, constante inteira ou '('
+Exit <factor>
+Exit <term>
+Exit <expr>
