@@ -77,10 +77,12 @@ int main() {
             a[idxArvore].producoes = "<expr>";
             expr(idxArvore);
 
-            imprimirArvore(a, 900);
-          
-            printf("\n");
+        
         } while (nextToken != EOF);
+
+        if (nextChar == '\n') {
+            printf("Expressão aceita\n");
+        }
     }  
 
     return 0;
@@ -183,6 +185,9 @@ int lookup(char ch) {
         case '/':
             addChar();
             nextToken = DIV_OP;
+            break;
+        case ';':
+            printf("\nExpressão aceita\n\n");
             break;
         default:
             addChar();
