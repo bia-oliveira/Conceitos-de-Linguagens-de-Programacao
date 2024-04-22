@@ -79,10 +79,6 @@ int main() {
 
         
         } while (nextToken != EOF);
-
-        if (nextChar == '\n') {
-            printf("Expressão aceita\n");
-        }
     }  
 
     return 0;
