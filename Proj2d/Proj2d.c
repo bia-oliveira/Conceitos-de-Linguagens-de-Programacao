@@ -5,7 +5,7 @@
 
 #define STACK_SIZE 100
 #define PRODUCOES_SIZE 100
-#define ARVORE_SIZE 122
+#define ARVORE_SIZE 1000
 #define STACK_IDX_SIZE 100
 
 char w[16];
@@ -16,7 +16,7 @@ int producoes[PRODUCOES_SIZE];
 int stack_index[STACK_IDX_SIZE];
 char stack[STACK_SIZE];
 char arv[ARVORE_SIZE];
-char notPolonesa[20];
+char notPolonesa[100];
 int z = 0;
 char arvBin[ARVORE_SIZE];
 int y = 0;
