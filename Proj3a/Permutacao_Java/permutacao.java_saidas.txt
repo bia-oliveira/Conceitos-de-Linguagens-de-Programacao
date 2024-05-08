@@ -1,0 +1,12 @@
+Tempo decorrido para n = 2: 0.000000 segundos
+Tempo decorrido para n = 3: 0.000000 segundos
+Tempo decorrido para n = 4: 0.000000 segundos
+Tempo decorrido para n = 5: 0.000000 segundos
+Tempo decorrido para n = 6: 0.000000 segundos
+Tempo decorrido para n = 7: 0.000000 segundos
+Tempo decorrido para n = 8: 0.002000 segundos
+Tempo decorrido para n = 9: 0.100000 segundos
+Tempo decorrido para n = 10: 0.492000 segundos
+Tempo decorrido para n = 11: 2.204000 segundos
+Tempo decorrido para n = 12: 25.009000 segundos
+Tempo decorrido para n = 13: 211.012000 segundos
