@@ -1,4 +1,4 @@
-//vetor de 10 elementos
+//vetor de 100 elementos
 
 import java.util.Random;
 
