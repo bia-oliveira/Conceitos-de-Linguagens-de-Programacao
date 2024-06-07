@@ -1,6 +1,8 @@
+//vetor de 10 elementos
+
 import java.util.Random;
 
-public class InsertionSort {
+public class Main {
 
     public static void generateRandomArray(int[] arr) {
         Random rand = new Random();
@@ -30,7 +32,7 @@ public class InsertionSort {
     }
 
     public static void main(String args[]) {
-        InsertionSort ob = new InsertionSort();
+        Main ob = new Main();
         
         int[] arr10 = new int[10];
 
