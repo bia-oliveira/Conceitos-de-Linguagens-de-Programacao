@@ -4,7 +4,7 @@
 
 void generateRandomArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        arr[i] = rand() % 1000; 
+        arr[i] = rand() % 1000000; 
     }
 }
 
@@ -31,11 +31,16 @@ int main() {
     srand(time(0)); // Inicializa o gerador de números aleatórios
 
     int arr10[10];
+    int arr100[100];
+    int arr1000[1000];
+    int arr10000[100000];
+    int arr100000[100000];
+    int arr1000000[1000000];
 
-    generateRandomArray(arr10, 10);
+    generateRandomArray(arr1000000, 1000000);
   
-    int n = sizeof(arr10) / sizeof(arr10[0]);
-    insertionSort(arr10, n);
-    printArray(arr10, n);
+    int n = sizeof(arr1000000) / sizeof(arr1000000[0]);
+    insertionSort(arr1000000, n);
+    printArray(arr1000000, n);
     return 0;
 }
