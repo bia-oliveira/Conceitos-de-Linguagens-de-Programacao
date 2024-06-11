@@ -1,10 +1,5 @@
 :- use_module(library(random)).
 
-bubble([], []).
-bubble([X], [X]).
-bubble([X,Y|T], [Y|R]) :- X > Y, bubble([X|T], R).
-bubble([X,Y|T], [X|R]) :- X =< Y, bubble([Y|T], R).
-
 split([], [], []).
 split([X], [X], []).
 split([X,Y|T], [X|L], [Y|R]) :- split(T, L, R).
