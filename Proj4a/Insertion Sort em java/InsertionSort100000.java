@@ -2,7 +2,7 @@
 
 import java.util.Random;
 
-public class InsertionSort100000 {
+public class InsertionSort {
 
     public static void generateRandomArray(int[] arr) {
         Random rand = new Random();
@@ -32,11 +32,16 @@ public class InsertionSort100000 {
     }
 
     public static void main(String args[]) {
-        InsertionSort100000 ob = new InsertionSort100000();
+        InsertionSort ob = new InsertionSort();
         
+        int[] arr10 = new int[10];
+        int[] arr100 = new int[100];
+        int[] arr1000 = new int[1000];
+        int[] arr10000 = new int[10000];
         int[] arr100000 = new int[100000];
 
         generateRandomArray(arr100000);
+        
         ob.insertionSort(arr100000);
         ob.printArray(arr100000);
     }
