@@ -6,4 +6,4 @@
  )
 )
 
-(print (raiz 9 4))
+(print (raiz 3 5))
